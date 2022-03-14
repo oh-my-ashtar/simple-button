@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "module": "dist/esm/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c"
@@ -23,7 +25,9 @@
     "@rollup/plugin-typescript": "^8.3.1",
     "@types/react": "^17.0.40",
     "@types/styled-components": "^5.1.24",
+    "final-form": "^4.20.6",
     "react": "^17.0.2",
+    "react-final-form": "^6.5.8",
     "rollup": "^2.70.0",
     "rollup-plugin-dts": "^4.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
